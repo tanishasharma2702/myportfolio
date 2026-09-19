@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Tanisha Sharma | CSE-AIML Student &amp; Aspiring AI Engineer</title>
+  <meta name="title" content="Tanisha Sharma | CSE-AIML Student &amp; Aspiring AI Engineer">
+  <meta name="description" content="Personal portfolio of Tanisha Sharma, a first-year B.Tech CSE (AI &amp; ML) student at JECRC University with strong skills in C, C++, and a passion for Artificial Intelligence and Art.">
+  <meta name="keywords" content="Tanisha Sharma, JECRC University, CSE AIML, Artificial Intelligence, C, C++, Python, First Year Engineering Student Portfolio">
+  <meta name="author" content="Tanisha Sharma">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tanisha Sharma | CSE-AIML Student &amp; Aspiring AI Engineer">
+  <meta property="og:description" content="Explore the portfolio, academic journey, technical skills in C and C++, and creative interests of Tanisha Sharma.">
+  
+  <!-- Inline SVG Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%238E7DBE'/><text x='50%' y='55%' text-anchor='middle' font-family='serif' font-weight='bold' font-size='42' fill='%23F1E3D3' dy='.3em'>TS</text></svg>">
+
+  <!-- Google Fonts Preconnect & Stylesheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Scroll Progress Bar -->
+  <div id="scroll-progress" role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+
+  <!-- Sticky Header Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Tanisha Sharma Home">
+        <span class="brand-emblem">TS</span>
+        <span class="brand-text">Tanisha Sharma</span>
+      </a>
+
+      <!-- Navigation Menu -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#art" class="nav-link">Art</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Items: Theme Toggle & Mobile Trigger -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle light and dark theme" title="Switch Theme">
+          <!-- Sun Icon (for dark mode to switch to light) -->
+          <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <!-- Moon Icon (for light mode to switch to dark) -->
+          <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <button id="mobile-toggle" class="mobile-toggle-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ====================================================================
+         1. HERO SECTION
+         ==================================================================== -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <!-- Hero Text Content -->
+        <div class="hero-content reveal">
+          <div class="hero-greeting">
+            <span>👋</span> Welcome to my portfolio
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="name-highlight">Tanisha Sharma</span>
+          </h1>
+          <p class="hero-tagline">
+            First-year B.Tech CSE (AI &amp; ML) student | Curious about Artificial Intelligence
+          </p>
+          
+          <!-- Animated Typing Loop -->
+          <div class="typing-container">
+            <span id="typing-text" class="typing-text">Aspiring AI Engineer</span>
+            <span class="typing-cursor" aria-hidden="true"></span>
+          </div>
+
+          <p class="hero-bio">
+            I am a first-year CSE-AIML undergraduate passionate about the possibilities of Artificial Intelligence. Driven by genuine curiosity, I focus on strong programming fundamentals, logical problem solving, and embracing creativity through art.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#skills" class="btn btn-primary">
+              View Skills
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              Contact Me
+            </a>
+          </div>
+        </div>
+
+        <!-- Stylish Circular Avatar Placeholder (Glowing Geometric Monogram) -->
+        <div class="hero-visual reveal">
+          <div class="avatar-wrapper">
+            <div class="avatar-glow-ring" aria-hidden="true"></div>
+            <div class="avatar-outer-border" aria-hidden="true"></div>
+            <div class="avatar-card">
+              <div class="avatar-monogram">TS</div>
+              <span class="avatar-caption">CSE &bull; AIML &bull; Art</span>
+            </div>
+            
+            <!-- Floating Decorative Badges -->
+            <div class="floating-badge badge-aiml">
+              <span>🤖</span> AI &amp; ML Enthusiast
+            </div>
+            <div class="floating-badge badge-art">
+              <span>🎨</span> Drawing &amp; Painting
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         2. ABOUT ME SECTION
+         ==================================================================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Get To Know Me</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">A curious first-year engineer blending analytical logic with creative vision.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Genuine Student Story Narrative -->
+          <div class="about-narrative reveal">
+            <p>
+              I am a first-year engineering student at <strong>JECRC University</strong>, pursuing my <strong>B.Tech in Computer Science &amp; Engineering with specialization in Artificial Intelligence and Machine Learning (Samatrix)</strong>.
+            </p>
+            <p>
+              My deep curiosity about how machines learn, reason, and solve complex real-world challenges is what drove me to choose this specialization from day one. I believe in establishing deep, grounded fundamentals before moving ahead.
+            </p>
+            <p>
+              I have developed a strong command of <strong>C</strong> and <strong>C++</strong>, which gives me a rigorous understanding of structured programming, memory efficiency, and algorithmic thinking. Currently, I am actively learning <strong>Python</strong> to step into the ecosystem of data and modern AI libraries.
+            </p>
+            <p>
+              Beyond the terminal, creativity has always been a central part of my life. I have been drawing and painting for years. Far from being separate worlds, art has sharpened my patience, attention to detail, and ability to think out of the box—qualities that directly influence how I approach coding and critical problem solving. My aspiration is to combine technology, AI, and creativity as I learn and grow.
+            </p>
+
+            <!-- EXACTLY Three Stat Cards -->
+            <div class="stat-cards-grid">
+              <div class="stat-card">
+                <span class="stat-icon" aria-hidden="true">🎓</span>
+                <div class="stat-title">1st Year</div>
+                <div class="stat-desc">B.Tech CSE - AIML</div>
+              </div>
+              <div class="stat-card">
+                <span class="stat-icon" aria-hidden="true">🐍</span>
+                <div class="stat-title">Learning Python</div>
+                <div class="stat-desc">Active Focus</div>
+              </div>
+              <div class="stat-card">
+                <span class="stat-icon" aria-hidden="true">💡</span>
+                <div class="stat-title">AI Enthusiast</div>
+                <div class="stat-desc">Curious &amp; Driven</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- What I'm Working Towards (3 Goal Cards) -->
+          <div class="goals-wrapper reveal">
+            <h3 class="goals-heading">
+              <span>🎯</span> What I'm Working Towards
+            </h3>
+            <div class="goals-list">
+              <div class="goal-card">
+                <div class="goal-number">1</div>
+                <div class="goal-content">
+                  <h4>Learn Python and AI/ML fundamentals</h4>
+                  <p>Mastering modern Python programming, NumPy, data structures, and the mathematical foundations of machine learning.</p>
+                </div>
+              </div>
+
+              <div class="goal-card">
+                <div class="goal-number">2</div>
+                <div class="goal-content">
+                  <h4>Build real projects and publish them on GitHub</h4>
+                  <p>Applying programming concepts to build tangible, practical solutions and open-source contributions.</p>
+                </div>
+              </div>
+
+              <div class="goal-card">
+                <div class="goal-number">3</div>
+                <div class="goal-content">
+                  <h4>Grow into an AI engineer</h4>
+                  <p>Progressively advancing toward creating intelligent systems that solve meaningful everyday problems.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         3. EDUCATION SECTION
+         ==================================================================== -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Academic Background</span>
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">My academic journey and milestone foundations.</p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Timeline Item 1: Current University -->
+          <div class="timeline-item reveal">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-badge current">1st Year | 2026 &ndash; Present</span>
+                <span class="timeline-score">2026 &ndash; 2030</span>
+              </div>
+              <h3 class="timeline-title">B.Tech Computer Science &amp; Engineering with AIML Specialization</h3>
+              <div class="timeline-institution">JECRC University</div>
+              <p class="timeline-desc">
+                Currently pursuing my B.Tech in Computer Science and Engineering with AIML specialization at JECRC University.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: 12th Standard -->
+          <div class="timeline-item reveal">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-badge">Completed in 2026</span>
+                <span class="timeline-score">71%</span>
+              </div>
+              <h3 class="timeline-title">Senior Secondary Education</h3>
+              <div class="timeline-institution">Bhabha Public School</div>
+              <p class="timeline-desc">
+                Completed my 12th standard in 2026 with PCM (Physics, Chemistry and Mathematics).
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3: 10th Standard -->
+          <div class="timeline-item reveal">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-badge">Completed in 2024</span>
+                <span class="timeline-score">89%</span>
+              </div>
+              <h3 class="timeline-title">Secondary School Examination</h3>
+              <div class="timeline-institution">Sanskar School</div>
+              <p class="timeline-desc">
+                Completed my 10th standard in 2024 with a strong academic foundation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         4. SKILLS SECTION
+         ==================================================================== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Capabilities</span>
+          <h2 class="section-title">Skills &amp; Strengths</h2>
+          <p class="section-subtitle">An honest view of my technical skills, learning path, and natural strengths.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Core Personal Skills with Progress Bars -->
+          <div class="skills-list reveal">
+            <!-- Skill: C -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">
+                  <span>⚡</span> C Programming
+                </span>
+                <span class="skill-value">95%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-progress="95" style="width: 0%;"></div>
+              </div>
+            </div>
+
+            <!-- Skill: C++ -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">
+                  <span>🚀</span> C++ Programming
+                </span>
+                <span class="skill-value">90%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-progress="90" style="width: 0%;"></div>
+              </div>
+            </div>
+
+            <!-- Skill: Python (Clearly tagged: Learning) -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">
+                  <span>🐍</span> Python
+                </span>
+                <span class="skill-status-tag">Learning</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill learning-pulse" data-progress="50" style="width: 0%;"></div>
+              </div>
+            </div>
+
+            <!-- Skill: Excel -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">
+                  <span>📊</span> Microsoft Excel
+                </span>
+                <span class="skill-value">Proficient</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-progress="80" style="width: 0%;"></div>
+              </div>
+            </div>
+
+            <!-- Skill: Critical Thinking -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">
+                  <span>🧠</span> Critical Thinking
+                </span>
+                <span class="skill-value">Strong</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-progress="88" style="width: 0%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sidebar: Currently Exploring & Strengths -->
+          <div class="skills-sidebar">
+            <!-- Currently Exploring Strip -->
+            <div class="exploring-card reveal">
+              <h3 class="sidebar-title">
+                <span>🔍</span> Currently Exploring
+              </h3>
+              <div class="exploring-tags">
+                <span class="exploring-tag"><span class="tag-dot"></span>Python</span>
+                <span class="exploring-tag"><span class="tag-dot"></span>Git &amp; GitHub</span>
+                <span class="exploring-tag"><span class="tag-dot"></span>AI/ML Basics</span>
+                <span class="exploring-tag"><span class="tag-dot"></span>Web Deployment</span>
+              </div>
+            </div>
+
+            <!-- Strengths Chips -->
+            <div class="strengths-card reveal">
+              <h3 class="sidebar-title">
+                <span>✨</span> Core Strengths
+              </h3>
+              <div class="strengths-chips">
+                <span class="strength-chip">Problem Solving</span>
+                <span class="strength-chip">Creativity</span>
+                <span class="strength-chip">Attention to Detail</span>
+                <span class="strength-chip">Quick Learner</span>
+                <span class="strength-chip">Critical Thinking</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         5. PROJECTS SECTION
+         ==================================================================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Practical Work</span>
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle">Honest showcase of my current portfolio and upcoming initiatives.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: This Portfolio Website -->
+          <div class="project-card reveal">
+            <div class="project-top">
+              <div class="project-badge-row">
+                <span class="project-status status-active">Live &bull; Active</span>
+                <div class="project-icon-box" aria-hidden="true">🌐</div>
+              </div>
+              <h3 class="project-title">This Portfolio Website</h3>
+              <p class="project-desc">
+                Tanisha's personal portfolio website showcasing her education, skills, and interests. It was built using clean HTML, modern CSS, and vanilla JavaScript with the assistance of an AI agent in Antigravity IDE, and deployed directly on Netlify.
+              </p>
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Netlify</span>
+              <span class="tech-tag">Antigravity IDE</span>
+            </div>
+          </div>
+
+          <!-- Project 2: Coming Soon — AI/Coding Project -->
+          <div class="project-card coming-soon-card reveal">
+            <div class="project-top">
+              <div class="project-badge-row">
+                <span class="project-status status-coming-soon">Coming Soon</span>
+                <div class="project-icon-box" aria-hidden="true">🤖</div>
+              </div>
+              <h3 class="project-title">AI / Coding Project</h3>
+              <p class="project-desc">
+                An upcoming engineering project applying C++ and Python fundamentals to practical problem solving and exploring algorithmic intelligence. Currently in planning and learning phase.
+              </p>
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech-tag">C++</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Algorithms</span>
+              <span class="tech-tag">In Progress</span>
+            </div>
+          </div>
+
+          <!-- Project 3: Coming Soon — Art Meets Code -->
+          <div class="project-card coming-soon-card reveal">
+            <div class="project-top">
+              <div class="project-badge-row">
+                <span class="project-status status-coming-soon">Coming Soon</span>
+                <div class="project-icon-box" aria-hidden="true">🎨</div>
+              </div>
+              <h3 class="project-title">Art Meets Code</h3>
+              <p class="project-desc">
+                An initiative aimed at blending visual creativity, geometry, and code. Exploring generative aesthetics and interactive visual design driven by programmatic logic.
+              </p>
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech-tag">Creative Coding</span>
+              <span class="tech-tag">Visual Art</span>
+              <span class="tech-tag">Concept</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         6. ART & CREATIVITY SECTION
+         ==================================================================== -->
+    <section id="art" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Non-Academic Passion</span>
+          <h2 class="section-title">Art &amp; Creativity</h2>
+          <p class="section-subtitle">Where patience, observation, and imagination cultivate engineering discipline.</p>
+        </div>
+
+        <div class="art-wrapper reveal">
+          <!-- Decorative Background Accents -->
+          <div class="art-decor-blob-1" aria-hidden="true"></div>
+          <div class="art-decor-blob-2" aria-hidden="true"></div>
+
+          <div class="art-content-grid">
+            <div class="art-story">
+              <h3>Drawing, Painting &amp; The Creative Eye</h3>
+              <p>
+                Drawing and painting have been deeply cherished passions of mine for years. Holding a pencil or brush teaches you to observe the subtle nuances that others might overlook.
+              </p>
+              <p>
+                Art has taught me that great outcomes require deliberate patience, disciplined practice, and attention to every detail. In engineering and AI, these very qualities are essential for designing elegant architectures and debugging intricate algorithms.
+              </p>
+              <div class="art-quote">
+                "Art provides the imagination, and engineering provides the structure to bring it to reality."
+              </div>
+            </div>
+
+            <!-- Three Creative Pillars -->
+            <div class="art-pillars">
+              <div class="art-pillar-card">
+                <div class="art-pillar-icon" aria-hidden="true">🎨</div>
+                <div class="art-pillar-info">
+                  <h4>Creativity</h4>
+                  <p>Approaching technical problems from fresh, unconventional angles.</p>
+                </div>
+              </div>
+
+              <div class="art-pillar-card">
+                <div class="art-pillar-icon" aria-hidden="true">⏳</div>
+                <div class="art-pillar-info">
+                  <h4>Patience</h4>
+                  <p>Willingness to iterate, refine, and polish work until it is sound.</p>
+                </div>
+              </div>
+
+              <div class="art-pillar-card">
+                <div class="art-pillar-icon" aria-hidden="true">🔍</div>
+                <div class="art-pillar-info">
+                  <h4>Attention to Detail</h4>
+                  <p>Caring about edge cases, precision, and harmony in every stroke or line of code.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         7. CONTACT SECTION
+         ==================================================================== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Get In Touch</span>
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">Have a question, feedback, or just want to say hello? I'd love to hear from you.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Details & Social Links -->
+          <div class="contact-info reveal">
+            <p>
+              I am always eager to connect with fellow students, mentors, and technology enthusiasts curious about Artificial Intelligence and computer science. Feel free to leave a message using the form or through the channels below.
+            </p>
+
+            <div class="contact-channels">
+              <!-- Email -->
+              <a href="mailto:tanisha.xyz.abc@gamil.com" class="contact-channel-item" aria-label="Send email to Tanisha Sharma">
+                <div class="channel-icon" aria-hidden="true">✉️</div>
+                <div class="channel-details">
+                  <h4>Email</h4>
+                  <span>tanisha.xyz.abc@gamil.com</span>
+                </div>
+              </a>
+
+              <!-- LinkedIn -->
+              <a href="https://www.linkedin.com/in/tanisha-sharma-454474429?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="contact-channel-item" aria-label="Visit Tanisha Sharma's LinkedIn Profile">
+                <div class="channel-icon" aria-hidden="true">💼</div>
+                <div class="channel-details">
+                  <h4>LinkedIn</h4>
+                  <span>linkedin.com/in/tanisha-sharma-454474429</span>
+                </div>
+              </a>
+
+              <!-- GitHub -->
+              <a href="https://github.com/tanishasharma2702" target="_blank" rel="noopener noreferrer" class="contact-channel-item" aria-label="Visit Tanisha Sharma's GitHub Profile">
+                <div class="channel-icon" aria-hidden="true">🐙</div>
+                <div class="channel-details">
+                  <h4>GitHub</h4>
+                  <span>github.com/tanishasharma2702</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Fully Structured Netlify-Compatible Contact Form -->
+          <div class="contact-form-card reveal">
+            <form 
+              name="contact" 
+              method="POST" 
+              data-netlify="true" 
+              netlify-honeypot="bot-field"
+              class="contact-form"
+              id="portfolio-contact-form"
+            >
+              <!-- Hidden input required for Netlify Forms -->
+              <input type="hidden" name="form-name" value="contact">
+
+              <!-- Honeypot Field for anti-spam (hidden from users) -->
+              <p class="hidden-field">
+                <label>Don't fill this out if you're human: <input name="bot-field"></label>
+              </p>
+
+              <!-- Name Field -->
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Your Name</label>
+                <input 
+                  type="text" 
+                  id="contact-name" 
+                  name="name" 
+                  class="form-input" 
+                  placeholder="Enter your full name" 
+                  required
+                  autocomplete="name"
+                >
+              </div>
+
+              <!-- Email Field -->
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Your Email</label>
+                <input 
+                  type="email" 
+                  id="contact-email" 
+                  name="email" 
+                  class="form-input" 
+                  placeholder="name@example.com" 
+                  required
+                  autocomplete="email"
+                >
+              </div>
+
+              <!-- Message Field -->
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Your Message</label>
+                <textarea 
+                  id="contact-message" 
+                  name="message" 
+                  rows="4" 
+                  class="form-textarea" 
+                  placeholder="Write your message here..." 
+                  required
+                ></textarea>
+              </div>
+
+              <!-- Status Alert (Shown dynamically upon submission) -->
+              <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary" id="submit-button">
+                <span>Send Message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ====================================================================
+       FOOTER
+       ==================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <h3 class="footer-brand">Tanisha Sharma</h3>
+      <p class="footer-copyright">&copy; 2026 Tanisha Sharma &bull; JECRC University, Jaipur</p>
+
+      <nav class="footer-nav" aria-label="Footer Navigation">
+        <ul class="footer-links">
+          <li><a href="#about" class="footer-link">About</a></li>
+          <li><a href="#education" class="footer-link">Education</a></li>
+          <li><a href="#skills" class="footer-link">Skills</a></li>
+          <li><a href="#projects" class="footer-link">Projects</a></li>
+          <li><a href="#art" class="footer-link">Art</a></li>
+          <li><a href="#hero" class="footer-link">Home</a></li>
+          <li><a href="#contact" class="footer-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button id="footer-back-to-top" class="footer-back-to-top" aria-label="Back to top">
+        Back to top &uarr;
+      </button>
+    </div>
+  </footer>
+
+  <!-- Floating Back-to-Top Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top" title="Scroll to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
